@@ -40,3 +40,21 @@ $result = mysqli_query($conn, $sql);
 </table>
 </body>
 </html>
+<style>
+    table {
+        width: 100%;
+        max-width: 1100px;
+        margin: 0 auto;
+        background: rgba(251, 249, 249, 0.98);
+        border-collapse: collapse;
+        border-radius: 12px;
+        overflow: hidden;
+       font-family: 'Segoe UI', Arial, sans-serif;
+       font-size: 14px;
+    }
+    th, td {
+        padding: 12px 16px;
+        text-align: left;
+    }
+    
+</style>
